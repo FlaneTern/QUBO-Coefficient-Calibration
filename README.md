@@ -34,8 +34,8 @@ The GPU requirements file is self-contained and includes the PennyLane Lightning
 Clone the repository and enter its root directory:
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/FlaneTern/QUBO-Coefficient-Calibration.git
+cd QUBO-Coefficient-Calibration
 ```
 
 ### CPU environment
