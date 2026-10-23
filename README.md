@@ -4,11 +4,35 @@ Source code for the paper currently titled **“Calibrating QUBO Coefficients fo
 
 The repository contains the fixed-cardinality problem definition, exact threshold/certificate analysis, PennyLane QAOA implementation, experiment orchestration, and plotting code required to reproduce the manuscript data and figures.
 
-**To reproduce the paper:** read **Requirements** and **Installation** first, then run **`python reproduce_paper_results.py`**. This is the frozen paper-reproduction entry point; the other scripts are for additional, customizable experiments and supporting tasks.
+**To reproduce the paper:** If you want the raw results and figures, [download precomputed results and figures in releases](https://github.com/FlaneTern/QUBO-Coefficient-Calibration/releases). If you want to run the experiments yourself, read **Requirements** and **Installation** first, then run **`python reproduce_paper_results.py`**. This is the frozen paper-reproduction entry point; the other scripts are for additional, customizable experiments and supporting tasks.
 
 > **Research status:** The manuscript and repository interface are still being finalized. File names and small implementation details may change while the paper is in preparation.
 
 > **Reproduction warning:** The frozen paper-production configuration uses the CPU implementation. The GPU environment is provided as an alternative execution path, but it is not the configuration used by `reproduce_paper_results.py` and should not be assumed to reproduce the production run identically until separately validated.
+
+
+## Precomputed Paper Results
+
+The complete experimental results and manuscript figures
+generated using `reproduce_paper_results.py` are available
+as downloadable assets in GitHub Releases.
+
+**[Download precomputed results and figures](https://github.com/FlaneTern/QUBO-Coefficient-Calibration/releases)**
+
+The archive contains:
+- CSV files with experiment results and supporting data.
+- PDF figures generated from the experimental results.
+- `experiment_manifest.json` documenting the run configuration.
+- `seed_ledger.csv` documenting the generated problem seeds.
+
+All results were generated using the frozen paper-production
+configuration with master seed 1 and the CPU backend.
+
+The generated data and figures are distributed separately
+to keep the Git repository lightweight.
+
+
+  
 
 ## Requirements
 
